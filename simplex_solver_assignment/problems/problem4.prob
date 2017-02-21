@@ -1,0 +1,18 @@
+/*Source: http://www.math.ncsu.edu/ma114/PDF/3.1C.pdf*/
+/*WORKS OK*/
+/*Expected Output:
+	- XB = 48, 72, 600
+	- Maximization Obj value: 1080 */
+
+
+[METADATA]
+vars 3
+constraints 3
+
+[OBJECTIVE]
+maximize 15,18,20
+
+[CONSTRAINTS]
+0.166666667,0.25,0.5 <= 60
+40,50,60 <= 2880
+25,30,40 <= 2400

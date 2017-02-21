@@ -1,0 +1,11 @@
+/*http://en.wikipedia.org/wiki/Simplex_algorithm#Example*/
+/*WORKS OK*/
+	this->nVariables = 5;
+	this->nConstraints = 2;
+	this->vec_coefficientsObj = VectorXd(this->nVariables);
+	this->mat_A = MatrixXd(this->nConstraints, this->nVariables);
+	this->vec_b = VectorXd(this->nConstraints);
+	this->vec_coefficientsObj<<-2,-3,-4,0,0;
+	this->mat_A<<3,2,1,1,0,
+				 2,5,3,0,1;
+	this->vec_b<<10,15;

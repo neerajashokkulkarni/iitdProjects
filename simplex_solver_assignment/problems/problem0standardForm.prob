@@ -1,0 +1,14 @@
+/*Example taken from the book's chapter itself*/
+/*WORKS OK*/
+
+[METADATA]
+vars 4
+constraints 2
+
+[OBJECTIVE]
+minimize -3,-2,0,0
+
+[CONSTRAINTS]
+1,1,1,0  = 5
+2,0.5,0,1 = 8
+

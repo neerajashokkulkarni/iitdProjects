@@ -1,0 +1,15 @@
+/*http://www.phpsimplex.com/en/simplex_method_example.htm*/
+/*WORKS OK*/
+
+[METADATA]
+vars 2
+constraints 3
+
+[OBJECTIVE]
+maximize 3,2
+
+[CONSTRAINTS]
+2,1 <= 18
+2,3 <= 42
+3,1 <= 24
+

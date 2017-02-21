@@ -1,0 +1,14 @@
+/*http://www.econ.ucsd.edu/~jsobel/172aw02/notes3.pdf*/
+/*WORKS OK*/
+
+[METADATA]
+vars 4
+constraints 3
+
+[OBJECTIVE]
+maximize 2,4,3,1
+
+[CONSTRAINTS]
+3,1,1,4 <= 12
+1,-3,2,3 <= 7
+2,1,3,-1 <= 10

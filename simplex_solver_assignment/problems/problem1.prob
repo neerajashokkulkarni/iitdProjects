@@ -1,0 +1,20 @@
+/*http://math.uww.edu/~mcfarlat/s-prob.htm*/
+/*Originially its a maximization problem so we have negated the ObjFun below*/
+/*Expected Output for Minimization
+	- ObjFunc value: -13
+	- XB = 5,0,4
+*/
+/*WORKS OK*/
+
+[METADATA]
+vars 3
+constraints 3
+
+[OBJECTIVE]
+minimize -1,-2,1
+
+[CONSTRAINTS]
+2,1,1 <= 14
+4,2,3 <= 28
+2,5,5 <= 30
+

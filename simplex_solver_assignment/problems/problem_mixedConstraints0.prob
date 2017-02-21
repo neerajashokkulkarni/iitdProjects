@@ -1,0 +1,18 @@
+/*www.pstcc.edu/facstaff/jwlamb/Math1630/6.4.ppt*/
+/*Expected Output for Maximization
+	- ObjFunc value: 14
+	- XB = 4,6
+*/
+/*WORKS OK*/
+
+[METADATA]
+vars 2
+constraints 2
+
+[OBJECTIVE]
+maximize 2,1
+
+[CONSTRAINTS]
+1,1 <= 10
+-1,1 >= 2
+
