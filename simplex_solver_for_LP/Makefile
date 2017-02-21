@@ -1,5 +1,5 @@
 All: dummy
 	g++ -g -o simplexSolver solver.cpp simplexSolve.cpp -I .
-	./simplexSolver
+	./simplexSolver problems/problem0.prob
 	
 dummy:

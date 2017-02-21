@@ -11,4 +11,3 @@ minimize -3,-2
 [CONSTRAINTS]
 1,1  <= 5
 2,0.5 <= 8
-
